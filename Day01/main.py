@@ -1,4 +1,3 @@
-import os, sys
 
 def two_numbers():
     with open('input.txt') as f:
@@ -34,4 +33,5 @@ def three_numbers():
 
 
 if __name__ == "__main__":
+    two_numbers()
     three_numbers()
